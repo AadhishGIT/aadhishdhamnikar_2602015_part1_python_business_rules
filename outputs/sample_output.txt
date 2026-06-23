@@ -1,0 +1,159 @@
+=================================================
+         BUSINESS RULE ENGINE
+=================================================
+
+1. Customer Profile
+2. Billing Calculator
+3. Loan Eligibility
+4. Campaign Eligibility
+5. Exit
+
+Choice: 1
+
+Customer Name: Aadhish Dhamnikar
+Age: 30
+City: Pune
+Monthly Income: 100000
+Monthly Expenses: 50000
+Existing EMI: 15000
+Credit Score (300-900): 780
+Segment: Premium
+
+
+Customer Summary
+------------------------------
+Monthly Savings: 50000
+Savings percentage: 50
+EMI-to-income ratio: 15
+Risk Category: Low Risk
+Customer value Category: High Value
+
+
+=================================================
+         BUSINESS RULE ENGINE
+=================================================
+
+1. Customer Profile
+2. Billing Calculator
+3. Loan Eligibility
+4. Campaign Eligibility
+5. Exit
+
+Choice: 2
+
+Product Name: Laptop
+Category: Electronics
+Quantity: 2
+Unit Price: 3000
+Discount %: 10
+GST %: 18
+Delivery Charge: 200
+
+
+Billing Summary
+------------------------------
+Gross Amount: 6000
+Discount Amount: 600
+Amount after Discount: 5400
+GST Amount: 972
+Delivery charge applied: 0
+Final payable amount: 6372
+
+
+=================================================
+         BUSINESS RULE ENGINE
+=================================================
+
+1. Customer Profile
+2. Billing Calculator
+3. Loan Eligibility
+4. Campaign Eligibility
+5. Exit
+
+Choice: 3
+
+Requested Loan Amount: 500000
+
+Decision: Approved
+Reason: Excellent credit and financial profile.
+
+
+=================================================
+         BUSINESS RULE ENGINE
+=================================================
+
+1. Customer Profile
+2. Billing Calculator
+3. Loan Eligibility
+4. Campaign Eligibility
+5. Exit
+
+Choice: 4
+
+
+Campaign: Premium Upsell Campaign
+
+
+=================================================
+         BUSINESS RULE ENGINE
+=================================================
+
+1. Customer Profile
+2. Billing Calculator
+3. Loan Eligibility
+4. Campaign Eligibility
+5. Exit
+
+Choice: 5
+
+Goodbye
+
+
+=================================================
+       SAMPLE VALIDATION OUTPUTS
+=================================================
+
+Invalid Age Example
+
+Age: -5
+Invalid age.
+
+Age: 25
+
+
+-------------------------------------------------
+
+Invalid Credit Score Example
+
+Credit Score (300-900): 950
+Credit score must be between 300 and 900.
+
+Credit Score (300-900): 780
+
+
+-------------------------------------------------
+
+Invalid Segment Example
+
+Segment: Gold
+
+Allowed values:
+['Standard', 'Premium', 'Enterprise']
+
+Segment: Premium
+
+
+-------------------------------------------------
+
+Invalid Quantity Example
+
+Quantity: -2
+
+Value cannot be negative.
+
+Quantity: 5
+
+
+=================================================
+                END OF OUTPUT
+=================================================
